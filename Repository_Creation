@@ -1,0 +1,26 @@
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+
+
+git init Repository_name
+Initialized empty Git repository in /home/akshay/Mytest/.git/
+
+cd Repository_name (<<This is a git repo>>)
+
+
+vi Repositor_Detail.txt and enter detail about repository and save it
+
+
+git add Repositor_Detail.txt
+
+git commit -m "Repositor had Been created on some date"
+
+create repository on GitHub and the some path is generated add it locally on your terminal like below 
+
+git remote add origin https://github.com/user_name/Mytest.git
+
+
+git push origin master
+
+
+and done.
