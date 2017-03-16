@@ -1,0 +1,11 @@
+Install puttu on Windows 7
+
+sudo apt-get install openssh-server   <install on ubuntu>
+
+set Virtual Machine Setting <Network Adapter> option to Bridge
+
+restart Ubuntu and close VMware and again restart it.
+
+do ifconfig or \sbin\ifconfig from terminal and look for inet addr
+
+open putty from window 7 and write inet addr into into Host Name (or IP Address) and check SSH and login with Ubuntu credential
