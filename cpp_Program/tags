@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ChainNode	header.h	/^	ChainNode(int elem, ChainNode *p)$/;"	f	class:ChainNode
+ChainNode	header.h	/^class ChainNode$/;"	c
+ChainOperation	header.h	/^	ChainOperation() { $/;"	f	class:ChainOperation
+ChainOperation	header.h	/^class ChainOperation$/;"	c
+DISPLAY_NODE	header.h	10;"	d
+Data	Btree.cpp	/^	int Data;$/;"	m	class:TreeLetterNode	file:
+EXIT	header.h	11;"	d
+First	Btree.cpp	/^		TreeLetterNode *First;$/;"	m	class:TreeLetterChain	file:
+INSERT_NODE	header.h	9;"	d
+Insert	Btree.cpp	/^void TreeLetterChain::Insert()$/;"	f	class:TreeLetterChain
+Left	Btree.cpp	/^	TreeLetterNode *Left;$/;"	m	class:TreeLetterNode	file:
+Right	Btree.cpp	/^	TreeLetterNode *Right;$/;"	m	class:TreeLetterNode	file:
+TreeLetterChain	Btree.cpp	/^		TreeLetterChain()	{$/;"	f	class:TreeLetterChain
+TreeLetterChain	Btree.cpp	/^class TreeLetterChain$/;"	c	file:
+TreeLetterNode	Btree.cpp	/^class TreeLetterNode{$/;"	c	file:
+__HEADER__	header.h	2;"	d
+ch	check.cpp	/^	char ch='y';$/;"	v
+createChainNode	Tree_CPP.cpp	/^ChainNode *ChainOperation::createChainNode(int elem)$/;"	f	class:ChainOperation
+currentPos	check.cpp	/^	TreeLetterNode *temp,*head,*currentPos;$/;"	v
+data	header.h	/^	int data;$/;"	m	class:ChainNode
+displayNode	Tree_CPP.cpp	/^void ChainOperation::displayNode()$/;"	f	class:ChainOperation
+first	header.h	/^	ChainNode *first;$/;"	m	class:ChainOperation
+head	check.cpp	/^	TreeLetterNode *temp,*head,*currentPos;$/;"	v
+insertChainNode	Tree_CPP.cpp	/^void ChainOperation::insertChainNode()$/;"	f	class:ChainOperation
+link	header.h	/^	ChainNode *link;$/;"	m	class:ChainNode
+main	Btree.cpp	/^int main()$/;"	f
+main	Tree_CPP.cpp	/^int main()$/;"	f
+temp	check.cpp	/^	TreeLetterNode *temp,*head,*currentPos;$/;"	v
+url	browser.py	/^url = 'http:\/\/www.python.org\/'$/;"	v
+~TreeLetterChain	Btree.cpp	/^		~TreeLetterChain(){}$/;"	f	class:TreeLetterChain

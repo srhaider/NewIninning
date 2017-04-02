@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ChainNode	header.h	/^	ChainNode(int elem)$/;"	f	class:ChainNode
+ChainNode	header.h	/^class ChainNode$/;"	c
+ChainOperation	header.h	/^	ChainOperation() { $/;"	f	class:ChainOperation
+ChainOperation	header.h	/^class ChainOperation$/;"	c
+DELETE_FIRST_NODE	header.h	14;"	d
+DELETE_LAST_NODE	header.h	13;"	d
+DELETE_MIDDLE_NODE	header.h	15;"	d
+DISLAY_REVERSE_LIST	header.h	11;"	d
+DISPLAY_NODE	header.h	10;"	d
+EXIT	header.h	16;"	d
+INSERT_MIDDLE_OF_LIST	header.h	12;"	d
+INSERT_NODE	header.h	9;"	d
+__HEADER__	header.h	2;"	d
+createChainNode	Tree_CPP.cpp	/^ChainNode *ChainOperation::createChainNode(int elem)$/;"	f	class:ChainOperation
+data	header.h	/^	int data;$/;"	m	class:ChainNode
+deleteFirstNode	Tree_CPP.cpp	/^void ChainOperation::deleteFirstNode()$/;"	f	class:ChainOperation
+deleteLastNode	Tree_CPP.cpp	/^void ChainOperation::deleteLastNode()$/;"	f	class:ChainOperation
+deleteMiddleNode	Tree_CPP.cpp	/^void ChainOperation::deleteMiddleNode()$/;"	f	class:ChainOperation
+displayNode	Tree_CPP.cpp	/^void ChainOperation::displayNode()$/;"	f	class:ChainOperation
+displayReverseList	Tree_CPP.cpp	/^void ChainOperation::displayReverseList()$/;"	f	class:ChainOperation
+first	header.h	/^	ChainNode *first;$/;"	m	class:ChainOperation
+insertChainNode	Tree_CPP.cpp	/^void ChainOperation::insertChainNode()$/;"	f	class:ChainOperation
+insertMiddleList	Tree_CPP.cpp	/^void ChainOperation::insertMiddleList()$/;"	f	class:ChainOperation
+link	header.h	/^	ChainNode *link;$/;"	m	class:ChainNode
+main	Tree_CPP.cpp	/^int main()$/;"	f
